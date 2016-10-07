@@ -20,7 +20,7 @@ extension UIFont {
 
     @nonobjc static var fonts: [String]!
     
-    override public class func initialize() {
+    public class func loadLatoFonts() {
         fonts = [
             "Lato-Hairline",
             "Lato-HairlineItalic",
